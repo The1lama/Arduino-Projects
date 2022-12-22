@@ -14,7 +14,7 @@ void setup(){
 void loop(){
  
   unsigned long currentMillis = millis();
-  Serial.println(currentMillis);
+//Serial.println(currentMillis);
 
   if( (currentMillis - previousMillis) > interval && (currentMillis - previousMillis) < interval+1000 ) {
     previousMillis = currentMillis;  
@@ -22,6 +22,5 @@ void loop(){
      // do something
   }
 
-  delay(1000);
   Serial.println("");
 }
