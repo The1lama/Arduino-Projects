@@ -1,16 +1,6 @@
 /*
-  Machine Control - Analog in 0 - 10 V Example
-  This example provides the voltage value acquired by the
-  Machine Control. For each channel of the ANALOG IN connector,
-  there is a resistor divider made by a 100k and 39k,
-  the input voltage is divided by a ratio of 0.28.
   Maximum input voltage is 10V.
   To use the 0V-10V functionality, a 24V supply on
-  the PWR SUPPLY connector is necessary.
-  The circuit:
-   - Portenta H7
-   - Machine Control
-  This example code is in the public domain.
 */
 #include <Arduino_MachineControl.h>
 
